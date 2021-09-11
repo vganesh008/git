@@ -1,0 +1,15 @@
+---
+  - name: "creating test file for git"
+    hosts: all
+    tasks:
+      - name: "user"
+          user:
+            name:ganesh
+            uid:999
+            group:db
+            groups:db,test,oracle
+            comment:test
+            shell:/bin/bash
+            password:ganesh@1234
+             
+
