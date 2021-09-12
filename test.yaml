@@ -11,5 +11,9 @@
             comment:test
             shell:/bin/bash
             password:ganesh@1234
-             
+      - name: "file"
+          copy:
+            src: /test/ganesh.txt
+            dest: /ganesh/
+                   
 
