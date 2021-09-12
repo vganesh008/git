@@ -15,5 +15,10 @@
           copy:
             src: /test/ganesh.txt
             dest: /ganesh/
+
+
+ ganesh
+ test
+ fuk           
                    
 
